@@ -23,7 +23,7 @@ pipeline {
                     image: 'vhorbach.jfrog.io/default-docker-local/alpine-curl:latest',
                     targetRepo: 'default-docker-local',
                     // Attach custom properties to the published artifacts:
-                    properties: 'project-name=docker-dummy;status=testing'
+                    properties: 'project-name=docker-image_pl;status=testing'
                 )
             }
         }
